@@ -1,0 +1,3 @@
+Use the pandas-vs-spark notebook to create a table that is about 20 Gb in size.  You'll want a compute cluster large enough to handle the data...probably a driver node with 32 Gb of memory.
+You the three different "read csv..." notebooks to compare the results of using Spark vs pandas vs pandas-on-Spark approaches to reading the 20 Gb data into a dataframe.  Intentionally use a cluster that has 16 Gb driver node and at least a couple of similarly sized worker nodes.
+The Group-By Modeling notebook illustrates the benefits of using the applyInPandas API for doing pandas/scikit-learn group-by modeling; and also illustrates some basic techniques for controlling what gets logged to MLFlow.
